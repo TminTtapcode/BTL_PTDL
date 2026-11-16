@@ -1,0 +1,14 @@
+feature,mutual_information,mi_rank
+frequency_purchase_days,0.09463423055753029,1.0
+mean_interpurchase_days,0.08198568198514922,2.0
+garment_group_diversity,0.0782887115783959,3.0
+product_diversity,0.07801501423579715,4.0
+std_interpurchase_days,0.07791448487741581,5.0
+product_type_diversity,0.07755198006340636,6.0
+colour_diversity,0.0751683589526746,7.0
+monetary_total_spend,0.07400303612367432,8.0
+recency_days,0.07005932921395841,9.0
+items_per_purchase_day,0.06630220377272522,10.0
+dominant_channel_share,0.06302477640807425,11.0
+avg_item_price,0.04699357713355656,12.0
+avg_spend_per_purchase_day,0.04529763710321322,13.0

@@ -1,0 +1,21 @@
+feature,raw_dependencies,can_compute,feature_group,reason_or_limitation
+Recency (R),"transactions: t_dat, customer_id",True,RFM core,Days since last purchase relative to snapshot date
+Frequency — distinct purchase days (F_day),"transactions: t_dat, customer_id",True,RFM core,Candidate frequency definition because no order_id
+Item Frequency,transactions: customer_id,True,Behavior,Number of transaction rows/items; not number of orders
+Monetary (M),transactions: price,True,RFM core,Sum of observed purchase price
+Mean Interpurchase Time (T),t_dat + customer_id,True,Temporal,Valid only for customers with >=2 purchase days
+Purchase Regularity,t_dat + customer_id,True,Temporal,Std/dispersion of intervals; meaningful with repeated purchase days
+Avg Item Price,price + customer_id,True,Spending,Mean purchased item price
+Avg Spend per Purchase Day,price + t_dat + customer_id,True,Spending,Safer than AOV because there is no order_id
+Product Diversity,article_id + customer_id,True,Fashion diversity,Distinct articles purchased
+Product Type Diversity,transactions + articles.product_type,True,Fashion diversity,Distinct product types purchased
+Garment Group Diversity,transactions + articles.garment_group,True,Fashion diversity,Distinct garment groups purchased
+Colour Diversity,transactions + articles.colour_group,True,Fashion diversity,Distinct colour groups purchased
+Sales Channel Preference,sales_channel_id,True,Channel,Share/primary channel; do not rename channels without verified mapping
+Age,customers.age,True,Customer metadata,Use only after quality/ethics/utility analysis
+Club Member Status,customers.club_member_status,True,Customer metadata,Candidate profiling or model feature
+Fashion News Frequency,customers.fashion_news_frequency,True,Customer metadata,Candidate engagement/profile feature
+AOV (true order value),requires order_id,False,Not available,Dataset has no order_id
+CVR view→purchase,requires view events,False,Not available,"Dataset contains purchase history, not page views"
+Cancel Rate,requires cancellation/order status,False,Not available,No cancellation flag/status in transaction table
+Return Rate,requires returns,False,Not available,No return event/status in supplied transaction table

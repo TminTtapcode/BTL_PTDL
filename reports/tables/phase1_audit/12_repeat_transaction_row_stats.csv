@@ -1,0 +1,4 @@
+metric,value
+customers_with_1_transaction_row,131514.0
+customers_with_2plus_transaction_rows,1230767.0
+pct_customers_with_2plus_transaction_rows,90.3460446119413

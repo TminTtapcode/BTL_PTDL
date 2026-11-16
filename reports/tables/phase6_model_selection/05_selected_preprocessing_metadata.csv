@@ -1,0 +1,6 @@
+feature,mode,transform,raw_skewness
+recency_days,raw_robust,identity,0.801557182343901
+frequency_purchase_days,raw_robust,identity,4.926308842033632
+monetary_total_spend,raw_robust,identity,6.849884959351178
+product_diversity,raw_robust,identity,4.948657187715615
+product_type_diversity,raw_robust,identity,1.4668666391329765

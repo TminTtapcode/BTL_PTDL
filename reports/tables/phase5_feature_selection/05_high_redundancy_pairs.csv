@@ -1,0 +1,11 @@
+feature_a,feature_b,spearman_rho,abs_rho
+product_type_diversity,garment_group_diversity,0.9637977336646425,0.9637977336646425
+product_diversity,colour_diversity,0.9625471136443845,0.9625471136443845
+product_diversity,product_type_diversity,0.9589407192777866,0.9589407192777866
+monetary_total_spend,product_diversity,0.9464874330331827,0.9464874330331827
+product_diversity,garment_group_diversity,0.9452019324632142,0.9452019324632142
+product_type_diversity,colour_diversity,0.9256811824473583,0.9256811824473583
+garment_group_diversity,colour_diversity,0.9228292123484964,0.9228292123484964
+monetary_total_spend,colour_diversity,0.9084257819626513,0.9084257819626513
+monetary_total_spend,product_type_diversity,0.9019705071768858,0.9019705071768858
+monetary_total_spend,garment_group_diversity,0.9010696916052252,0.9010696916052252

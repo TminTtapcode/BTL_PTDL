@@ -1,0 +1,6 @@
+guardrail,rule
+No cluster-ID policy,"Actions must reference segment name, never technical number."
+No causal optimality claim,Segmentation does not prove causality.
+No fixed discount level,Discount magnitude requires experiments.
+Limited-history caution,Recent/new buyers have weak history.
+Cold-start policy,New customers with zero purchases belong in onboarding cohort.

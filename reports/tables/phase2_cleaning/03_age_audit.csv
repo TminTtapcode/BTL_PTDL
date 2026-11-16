@@ -1,0 +1,9 @@
+metric,value
+missing_age,15861.0
+missing_age_pct,1.1560664149623172
+q1,24.0
+q3,49.0
+iqr,25.0
+iqr_lower_observation_bound,-13.5
+iqr_upper_observation_bound,86.5
+iqr_extreme_count,214.0

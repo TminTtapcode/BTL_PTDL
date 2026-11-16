@@ -1,0 +1,7 @@
+feature,n_unique,missing_pct
+department_name,250,0.0
+product_type_name,131,0.0
+section_name,56,0.0
+colour_group_name,50,0.0
+garment_group_name,21,0.0
+product_group_name,19,0.0

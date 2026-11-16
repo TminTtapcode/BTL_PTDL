@@ -1,0 +1,6 @@
+feature,missing_count,missing_pct
+t_dat,0,0.0
+customer_id,0,0.0
+article_id,0,0.0
+price,0,0.0
+sales_channel_id,0,0.0

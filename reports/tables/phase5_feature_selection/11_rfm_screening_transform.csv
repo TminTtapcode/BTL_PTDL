@@ -1,0 +1,4 @@
+feature,transform,raw_skewness
+recency_days,identity,0.809844772690701
+frequency_purchase_days,log1p,4.100414835696801
+monetary_total_spend,log1p,5.920712308492346

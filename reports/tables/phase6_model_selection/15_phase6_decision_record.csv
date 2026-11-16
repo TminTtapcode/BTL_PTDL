@@ -1,0 +1,7 @@
+decision,value
+features,recency_days | frequency_purchase_days | monetary_total_spend | product_diversity | product_type_diversity
+selected_preprocessing,clean_iqr_3.0_standard
+best_kmeans_k,4
+technical_winner,KMeans
+technical_winner_k,4
+final_fit_note,"KMeans(k=4) fitted on 100k sample, predicted full population (1,362,281)"

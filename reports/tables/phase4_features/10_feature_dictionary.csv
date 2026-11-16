@@ -1,0 +1,23 @@
+feature,group,formula_or_source,business_interpretation,phase4_role,exists_in_master
+recency_days,RFM,reference_date - last_purchase_date,How recently the customer purchased,CORE,True
+frequency_purchase_days,RFM,COUNT(DISTINCT t_dat),Purchase frequency using purchase days,CORE,True
+monetary_total_spend,RFM,SUM(price),Observed cumulative customer spending,CORE,True
+item_frequency,Activity,COUNT(transaction rows),"Number of purchased item rows, not orders",CANDIDATE,True
+mean_interpurchase_days,Temporal,MEAN(diff distinct purchase dates),Typical repurchase interval,CANDIDATE,True
+median_interpurchase_days,Temporal,MEDIAN(diff distinct purchase dates),Robust typical repurchase interval,CANDIDATE,True
+std_interpurchase_days,Temporal,STD(diff distinct purchase dates),Purchase regularity/irregularity,CANDIDATE,True
+avg_item_price,Spending,Monetary / item_frequency,Typical purchased item price,CANDIDATE,True
+avg_spend_per_purchase_day,Spending,Monetary / Frequency,Typical spend on an active purchase day,CANDIDATE,True
+product_diversity,Fashion,COUNT(DISTINCT article_id),Breadth of individual products purchased,CANDIDATE,True
+product_type_diversity,Fashion,COUNT(DISTINCT product_type),Breadth across product types,CANDIDATE,True
+garment_group_diversity,Fashion,COUNT(DISTINCT garment_group),Breadth across garment groups,CANDIDATE,True
+colour_diversity,Fashion,COUNT(DISTINCT colour_group),Breadth across colour groups,CANDIDATE,True
+department_diversity,Fashion,COUNT(DISTINCT department),Breadth across departments,CANDIDATE,True
+section_diversity,Fashion,COUNT(DISTINCT section),Breadth across sections,CANDIDATE,True
+channel_diversity,Channel,COUNT(DISTINCT sales_channel_id),Number of channels used,CANDIDATE,True
+dominant_channel_share,Channel,max(channel transactions)/all transactions,Strength of preference for one channel,CANDIDATE,True
+customer_tenure_days,Temporal,last_purchase_date - first_purchase_date,Observed customer relationship span,DIAGNOSTIC,True
+items_per_purchase_day,Activity,item_frequency / Frequency,Shopping intensity per active day,CANDIDATE,True
+age,Metadata,customers.age,Customer age,PROFILE_OR_CANDIDATE,True
+club_member_status,Metadata,customers.club_member_status,Membership status,PROFILE_ONLY_FIRST,True
+fashion_news_frequency,Metadata,customers.fashion_news_frequency,Fashion-news engagement metadata,PROFILE_ONLY_FIRST,True

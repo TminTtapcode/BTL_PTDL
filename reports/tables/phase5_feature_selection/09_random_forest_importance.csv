@@ -1,0 +1,14 @@
+feature,rf_importance,rf_rank
+recency_days,0.20041542971861237,1.0
+frequency_purchase_days,0.1216865563774898,2.0
+product_diversity,0.0815981712087913,3.0
+mean_interpurchase_days,0.07870461903067799,4.0
+monetary_total_spend,0.07745518823031207,5.0
+product_type_diversity,0.07431956391921904,6.0
+avg_item_price,0.06311208912930605,7.0
+avg_spend_per_purchase_day,0.06279968420375757,8.0
+std_interpurchase_days,0.05854906985442762,9.0
+colour_diversity,0.05421059932227778,10.0
+garment_group_diversity,0.04701268642213988,11.0
+items_per_purchase_day,0.04226325544275553,12.0
+dominant_channel_share,0.03787308714023297,13.0

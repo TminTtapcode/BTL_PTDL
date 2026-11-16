@@ -1,0 +1,10 @@
+metric,value
+rows,31788324
+unique_customers,1362281
+unique_articles,104547
+min_date,2018-09-20 00:00:00
+max_date,2020-09-22 00:00:00
+observation_days,734
+price_min,1.694915254237288e-05
+price_max,0.5915254237288136
+price_mean,0.02782927385699376

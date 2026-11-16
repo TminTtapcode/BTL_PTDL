@@ -1,0 +1,6 @@
+metric,value
+total_customers,1362281.0
+customers_with_at_least_1_interval,914308.0
+mean_interval_coverage_pct,67.11596212528839
+customers_with_std_interval,731192.0
+regularity_coverage_pct,53.67409513896179

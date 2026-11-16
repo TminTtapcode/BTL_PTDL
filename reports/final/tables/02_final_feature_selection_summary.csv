@@ -1,0 +1,14 @@
+feature,coverage_pct,quality_status,anova_rank,mi_rank,rf_rank,consensus_rank,phase6_selected,decision
+frequency_purchase_days,100.0,CORE_KEEP,1.0,1.0,2.0,1.3333333333333333,True,KEEP_RFM_CORE
+product_diversity,100.0,OK,5.0,4.0,3.0,4.0,True,KEEP_FOR_PHASE6
+product_type_diversity,100.0,OK,2.0,6.0,6.0,4.666666666666667,True,KEEP_FOR_PHASE6
+mean_interpurchase_days,67.06334466592278,CAUTION,9.0,2.0,4.0,5.0,False,NOT_SELECTED_AFTER_SCREENING
+garment_group_diversity,100.0,OK,3.0,3.0,11.0,5.666666666666667,False,NOT_SELECTED_AFTER_SCREENING
+recency_days,100.0,CORE_KEEP,7.0,9.0,1.0,5.666666666666667,True,KEEP_RFM_CORE
+monetary_total_spend,100.0,CORE_KEEP,6.0,8.0,5.0,6.333333333333333,True,KEEP_RFM_CORE
+colour_diversity,100.0,OK,4.0,7.0,10.0,7.0,False,NOT_SELECTED_AFTER_SCREENING
+std_interpurchase_days,53.50616466459247,CAUTION,10.0,5.0,9.0,8.0,False,NOT_SELECTED_AFTER_SCREENING
+avg_item_price,100.0,OK,11.0,12.0,7.0,10.0,False,NOT_SELECTED_AFTER_SCREENING
+dominant_channel_share,100.0,OK,8.0,11.0,13.0,10.666666666666666,False,NOT_SELECTED_AFTER_SCREENING
+avg_spend_per_purchase_day,100.0,OK,12.0,13.0,8.0,11.0,False,NOT_SELECTED_AFTER_SCREENING
+items_per_purchase_day,100.0,OK,13.0,10.0,12.0,11.666666666666666,False,NOT_SELECTED_AFTER_SCREENING

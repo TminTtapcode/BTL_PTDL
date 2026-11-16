@@ -1,0 +1,6 @@
+# Reproducibility Checklist
+
+- **Fixed random seed**: RANDOM_STATE = 42 across all phases.
+- **Parquet pipelines**: Cleaned datasets persisted as immutable Parquet.
+- **Leakage-free cutoff**: Cutoff date MAX_DATE - 30 days enforced in Phase 5.
+- **Standardized scaling**: Outlier capping + StandardScaler applied via pickled bundle.

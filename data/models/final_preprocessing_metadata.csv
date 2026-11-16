@@ -1,0 +1,6 @@
+feature,mode,transform,raw_skewness
+recency_days,clean_iqr_3.0_standard,identity,0.8015839691970827
+frequency_purchase_days,clean_iqr_3.0_standard,identity,4.495763047020313
+monetary_total_spend,clean_iqr_3.0_standard,identity,6.276877457523839
+product_diversity,clean_iqr_3.0_standard,identity,4.57697306096715
+product_type_diversity,clean_iqr_3.0_standard,identity,1.456046062817004

@@ -1,0 +1,7 @@
+issue,decision,reason,affected_rows_or_records
+Transaction date invalid,DROP,Cannot use for Recency/Frequency,0
+Missing customer_id,DROP_FOR_SEGMENTATION,Cannot aggregate,0
+Missing/invalid price,DROP,Invalid monetary,614
+Exact duplicate transactions,KEEP,Represents multiple items,450000
+Extreme positive price,KEEP,Valid luxury items,0
+Missing customer age,KEEP_NULL,Age audit,15861

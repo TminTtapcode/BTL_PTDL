@@ -1,0 +1,13 @@
+feature,group,coverage_pct,business_meaning,eda_decision
+Recency,RFM,100.0,How recently the customer purchased,PROCEED
+Frequency_purchase_days,RFM,100.0,Distinct purchase dates,PROCEED
+Monetary_total_spend,RFM,100.0,Observed cumulative spending,PROCEED
+MeanInterpurchaseTime,Temporal,67.11596212528839,Typical time between purchase dates,PROCEED_WITH_CAUTION
+PurchaseRegularity,Temporal,53.67409513896179,Consistency of purchase timing,PROCEED_WITH_CAUTION
+AvgItemPrice,Spending,100.0,Average purchased item price,PROCEED
+ProductDiversity,Fashion,100.0,Distinct articles purchased,PROCEED
+DominantChannelShare,Channel,100.0,Strength of channel preference,PROCEED_WITH_CAUTION
+ProductTypeDiversity,Fashion,100.0,Customer diversity measured by product_type_diversity,PROCEED_WITH_CAUTION
+GarmentGroupDiversity,Fashion,100.0,Customer diversity measured by garment_group_diversity,PROCEED_WITH_CAUTION
+ColourDiversity,Fashion,100.0,Customer diversity measured by colour_diversity,PROCEED_WITH_CAUTION
+DepartmentDiversity,Fashion,100.0,Customer diversity measured by department_diversity,PROCEED_WITH_CAUTION

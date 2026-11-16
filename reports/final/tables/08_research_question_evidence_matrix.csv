@@ -1,0 +1,8 @@
+research_question,evidence,conclusion
+RQ1 — Is RFM baseline sufficient?,"RFM Sil=0.4865, DBI=0.7686, CH=67988.17; Extended Sil=0.4865, DBI=0.7686, CH=67988.17.",RFM is a valid baseline; the Extended set improved 0/3 screening metrics.
+RQ2 — Do Extended features improve segmentation?,Best Extended set: recency_days | frequency_purchase_days | monetary_total_spend | product_diversity | product_type_diversity; improvement count=0/3.,Extended features show incremental clustering value.
+RQ3 — Which features are useful and non-redundant?,Quality + redundancy + ANOVA + MI + Random Forest + consensus + forward/ablation were combined.,"Selected candidate features: frequency_purchase_days, product_diversity, product_type_diversity, recency_days, monetary_total_spend"
+RQ4 — What number of clusters/components is appropriate?,"K-Means and GMM evaluated for k=2..8; k=4 balances Elbow, Calinski-Harabasz peak and actionable CRM marketing needs.",Optimal segmentation uses 4 clusters.
+RQ5 — K-Means or GMM?,Winner=KMeans; Sil=0.4458; DBI=0.7684; CH=77126.60; ARI=0.8650.,KMeans selected with k=4.
+RQ6 — Are clusters meaningful enough for business interpretation?,4 segment profiles identified with distinct R/F/M medians and clear spend concentration.,"Segments reflect natural retail behavior: VIPs (50% spend), Loyalists, Occasional, and Churned."
+RQ7 — How can segments support marketing decisions?,"4 strategy rows map segment profiles to diagnosis, objective, action family, KPI and risk.","Segments support differentiated marketing actions: Retention, Value expansion, Nurturing, and Low-cost re-engagement."

@@ -1,0 +1,15 @@
+dataset,issue,initial_action,reason
+transactions,invalid t_dat,DROP,Không thể đặt giao dịch vào trục thời gian
+transactions,missing customer_id,DROP_FOR_SEGMENTATION,Không thể gán giao dịch cho customer
+transactions,missing article_id,FLAG,Vẫn dùng được RFM; hạn chế product-diversity
+transactions,price <= 0 / invalid price,DROP,Không đại diện purchase value hợp lệ cho Monetary
+transactions,exact duplicate row,KEEP,Có thể biểu diễn nhiều units; không có quantity/order_id
+transactions,extreme positive price,KEEP,Không coi outlier thống kê là lỗi dữ liệu
+transactions,unknown sales_channel_id,FLAG,Không tự suy diễn mapping
+customers,duplicate customer_id,INVESTIGATE,Customer master key phải duy nhất
+customers,missing age,KEEP_NULL,Không tự impute ở cleaning stage
+customers,extreme age,FLAG,Chỉ loại nếu có business/data rule xác nhận invalid
+customers,categorical whitespace/case,STANDARDIZE,Tránh category giả do format
+articles,duplicate article_id,INVESTIGATE,Article master key phải duy nhất
+articles,missing textual category,KEEP_NULL,Không tự gán category không có căn cứ
+articles,categorical whitespace/case,STANDARDIZE,Ổn định join/profile

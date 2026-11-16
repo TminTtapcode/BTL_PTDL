@@ -1,0 +1,6 @@
+feature,coverage_pct,missing_pct,n_unique,min,median,max,skewness,all_nonnegative
+recency_days,100.0,0.0,734,1.0,152.0,734.0,0.8015839691970827,True
+frequency_purchase_days,100.0,0.0,229,1.0,3.0,427.0,4.495763047020313,True
+monetary_total_spend,100.0,0.0,322525,0.0007627118644067797,0.24559322033898304,57.67640677966103,6.276877457523839,True
+product_diversity,100.0,0.0,585,1.0,8.0,1346.0,4.57697306096715,True
+product_type_diversity,100.0,0.0,63,1.0,5.0,65.0,1.456046062817004,True

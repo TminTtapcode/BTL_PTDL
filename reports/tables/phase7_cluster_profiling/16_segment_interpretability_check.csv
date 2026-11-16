@@ -1,0 +1,5 @@
+cluster_id,proposed_segment_name,has_distinct_rfm_profile,actionable_for_marketing,interpretable_for_phase8
+0,Dormant Low-Value,True,True,True
+1,High-Value Loyal,True,True,True
+2,Active Developing,True,True,True
+3,Frequent Core,True,True,True

@@ -1,0 +1,4 @@
+experiment,n_features,features,silhouette,davies_bouldin,calinski_harabasz,min_cluster_pct,max_cluster_pct,rank_silhouette,rank_dbi,rank_ch,composite_rank
+ABLATION_ORIGINAL,5,recency_days | frequency_purchase_days | monetary_total_spend | product_diversity | product_type_diversity,0.48645284057050214,0.7685763916096419,67988.17350397866,38.644,61.356,1.0,1.0,1.0,1.0
+REMOVE_product_type_diversity,4,recency_days | frequency_purchase_days | monetary_total_spend | product_diversity,0.47858208272566827,0.7904493678907186,62227.3695057791,36.752,63.248000000000005,2.0,2.0,2.0,2.0
+REMOVE_product_diversity,4,recency_days | frequency_purchase_days | monetary_total_spend | product_type_diversity,0.4726030997134861,0.804589897665444,61468.39318095011,38.344,61.656,3.0,3.0,3.0,3.0

@@ -1,0 +1,5 @@
+metric,value
+rows,1371980
+unique_customer_id,1371980
+duplicate_customer_id,0
+missing_customer_id,0
