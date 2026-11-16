@@ -1,6 +1,9 @@
 guardrail,rule
-No cluster-ID policy,"Actions must reference segment name, never technical number."
-No causal optimality claim,Segmentation does not prove causality.
-No fixed discount level,Discount magnitude requires experiments.
-Limited-history caution,Recent/new buyers have weak history.
-Cold-start policy,New customers with zero purchases belong in onboarding cohort.
+No cluster-ID policy,"Actions must reference segment/profile, never technical cluster number."
+No causal optimality claim,Historical segmentation does not prove an action maximizes incremental outcome.
+No fixed discount level,"Discount magnitude requires experiment, margin constraints, and response data."
+Limited-history caution,Recent/new customers have weak preference evidence.
+Profile-only variables,Age/membership variables must not be described as drivers unless used by the model.
+Cross-sell is a candidate,"Segment-popular unbought category is a hypothesis, not a best-next-product prediction."
+Model drift,Review segment profiles and strategy mapping after retraining or major behavior shifts.
+Campaign evaluation,Use controlled experiments or causal methods before claiming treatment effectiveness.

@@ -1,5 +1,5 @@
 cluster_id,base_segment_name,segment_descriptor,duplicate_name_flag,proposed_segment_name
-0,Dormant Low-Value,Core segment,False,Dormant Low-Value
+0,Dormant Low-Value,No strong extended descriptor,False,Dormant Low-Value
 1,High-Value Loyal,Broad Fashion Interest,False,High-Value Loyal
-2,Active Developing,Slow Repeat Cycle,False,Active Developing
+2,Active Developing,No strong extended descriptor,False,Active Developing
 3,Frequent Core,Broad Fashion Interest,False,Frequent Core

@@ -1,5 +1,12 @@
 item,rule
-Fixed random seed,RANDOM_STATE = 42 across all phases.
-Parquet pipelines,Cleaned datasets persisted as immutable Parquet.
-Leakage-free cutoff,Cutoff date MAX_DATE - 30 days enforced in Phase 5.
-Standardized scaling,Outlier capping + StandardScaler applied via pickled bundle.
+Dataset fixed,Same H&M snapshot for all experiments.
+Raw immutable,Keep raw CSV files unchanged.
+Cleaning logged,Use Phase 2 cleaning decision log.
+Reference date fixed,Derive RFM reference date deterministically.
+Random seed fixed,Use RANDOM_STATE=42 unless documented otherwise.
+Feature definitions documented,Use Phase 4 feature dictionary.
+Future split documented,Phase 5 uses a fixed 30-day FuturePurchase window.
+Same screening samples,Feature-set/model comparisons reuse fixed samples.
+Preprocessor/model saved,Persist final transformations and model.
+Naming auditable,Keep Phase 7 naming evidence.
+Marketing guardrails documented,Keep Phase 8 decision-support limits.

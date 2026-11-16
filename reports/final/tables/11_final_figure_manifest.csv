@@ -1,0 +1,13 @@
+source,final_path,status
+..\reports\figures\phase3_eda\01_monthly_transaction_rows.png,..\reports\final\figures\01_monthly_transaction_rows.png,COPIED
+..\reports\figures\phase3_eda\05_purchase_days_distribution.png,..\reports\final\figures\05_purchase_days_distribution.png,COPIED
+..\reports\figures\phase4_features\09_candidate_feature_correlation.png,..\reports\final\figures\09_candidate_feature_correlation.png,COPIED
+..\reports\figures\phase5_feature_selection\07_consensus_feature_ranking.png,..\reports\final\figures\07_consensus_feature_ranking.png,COPIED
+..\reports\figures\phase5_feature_selection\13_forward_composite_rank.png,..\reports\final\figures\13_forward_composite_rank.png,COPIED
+..\reports\figures\phase6_model_selection\02_kmeans_elbow.png,..\reports\final\figures\02_kmeans_elbow.png,COPIED
+..\reports\figures\phase6_model_selection\08_gmm_aic_bic.png,..\reports\final\figures\08_gmm_aic_bic.png,COPIED
+..\reports\figures\phase6_model_selection\11_model_stability_ari.png,..\reports\final\figures\11_model_stability_ari.png,COPIED
+..\reports\figures\phase6_model_selection\14_final_model_pca.png,..\reports\final\figures\14_final_model_pca.png,COPIED
+..\reports\figures\phase7_cluster_profiling\02_cluster_profile_heatmap.png,..\reports\final\figures\02_cluster_profile_heatmap.png,COPIED
+..\reports\figures\phase7_cluster_profiling\04_feature_effect_sizes.png,..\reports\final\figures\04_feature_effect_sizes.png,COPIED
+..\reports\figures\phase8_marketing_decision_support\01_marketing_objective_customer_share.png,..\reports\final\figures\01_marketing_objective_customer_share.png,COPIED

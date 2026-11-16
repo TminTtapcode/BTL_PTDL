@@ -1,0 +1,5 @@
+proposed_segment_name,marketing_objective,primary_kpi,secondary_kpi,risk_note
+Active Developing,Nurture and progression,Repeat purchase rate,Frequency / category breadth growth,This is a transitional segment and should be re-evaluated over time.
+Dormant Low-Value,Low-cost re-engagement or deprioritization,Reactivation rate,Incremental revenue per contacted customer,Avoid high spend on a low-response segment without uplift evidence.
+Frequent Core,Value expansion,Spend per purchase day,Category breadth / average item price,Do not push premium products when price behavior indicates lower-price preference.
+High-Value Loyal,Retention and value protection,Repeat purchase rate / retention rate,Category breadth / spend per active customer,Over-discounting high-value customers can destroy margin without incremental behavior.
