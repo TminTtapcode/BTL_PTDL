@@ -1,4 +1,4 @@
 feature,transform,raw_skewness
-recency_days,identity,0.809844772690701
-frequency_purchase_days,log1p,4.100414835696801
-monetary_total_spend,log1p,5.920712308492346
+recency_days,identity,0.8062406269700817
+frequency_purchase_days,log1p,5.1721222663860695
+monetary_total_spend,log1p,6.631286959287244

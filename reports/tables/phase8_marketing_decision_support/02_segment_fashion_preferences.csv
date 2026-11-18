@@ -1,121 +1,121 @@
 cluster_id,proposed_segment_name,value,transaction_rows,customers,rank_in_segment,dimension
-0,Dormant Low-Value,Trousers,295098,130133,1,product_type_name
-0,Dormant Low-Value,Sweater,210678,105717,2,product_type_name
-0,Dormant Low-Value,Dress,167450,80683,3,product_type_name
-0,Dormant Low-Value,T-shirt,161135,75741,4,product_type_name
-0,Dormant Low-Value,Top,90194,56260,5,product_type_name
-0,Dormant Low-Value,Blouse,88136,51540,6,product_type_name
-0,Dormant Low-Value,Vest top,86535,44079,7,product_type_name
-0,Dormant Low-Value,Swimwear bottom,77347,35773,8,product_type_name
-0,Dormant Low-Value,Bikini top,76510,34840,9,product_type_name
-0,Dormant Low-Value,Bra,73182,38050,10,product_type_name
-1,High-Value Loyal,Trousers,2067594,136010,1,product_type_name
-1,High-Value Loyal,Dress,1743207,133206,2,product_type_name
-1,High-Value Loyal,Sweater,1359645,134923,3,product_type_name
-1,High-Value Loyal,T-shirt,980343,127747,4,product_type_name
-1,High-Value Loyal,Blouse,789412,120836,5,product_type_name
-1,High-Value Loyal,Top,784537,128420,6,product_type_name
-1,High-Value Loyal,Vest top,665059,114783,7,product_type_name
-1,High-Value Loyal,Bra,598529,103161,8,product_type_name
-1,High-Value Loyal,Shorts,530117,103632,9,product_type_name
-1,High-Value Loyal,Skirt,507851,104560,10,product_type_name
-2,Active Developing,Trousers,603136,234022,1,product_type_name
-2,Active Developing,Dress,424066,181987,2,product_type_name
-2,Active Developing,Sweater,362872,175816,3,product_type_name
-2,Active Developing,T-shirt,334894,151597,4,product_type_name
-2,Active Developing,Bra,219062,103822,5,product_type_name
-2,Active Developing,Top,218972,131697,6,product_type_name
-2,Active Developing,Vest top,209279,105593,7,product_type_name
-2,Active Developing,Bikini top,204188,90598,8,product_type_name
-2,Active Developing,Swimwear bottom,190231,88183,9,product_type_name
-2,Active Developing,Blouse,181152,103272,10,product_type_name
-3,Frequent Core,Trousers,1251189,238679,1,product_type_name
-3,Frequent Core,Dress,903705,213060,2,product_type_name
-3,Frequent Core,Sweater,850079,226000,3,product_type_name
-3,Frequent Core,T-shirt,727378,203268,4,product_type_name
-3,Frequent Core,Top,489705,190485,5,product_type_name
-3,Frequent Core,Vest top,453228,160490,6,product_type_name
-3,Frequent Core,Blouse,446168,165615,7,product_type_name
-3,Frequent Core,Bra,444460,144338,8,product_type_name
-3,Frequent Core,Shorts,381484,138317,9,product_type_name
-3,Frequent Core,Bikini top,367097,121164,10,product_type_name
-0,Dormant Low-Value,Jersey Fancy,376019,151921,1,garment_group_name
-0,Dormant Low-Value,Jersey Basic,220291,95686,2,garment_group_name
-0,Dormant Low-Value,Trousers,187484,94685,3,garment_group_name
-0,Dormant Low-Value,"Under-, Nightwear",176684,71967,4,garment_group_name
-0,Dormant Low-Value,Swimwear,174451,48464,5,garment_group_name
-0,Dormant Low-Value,Knitwear,163607,88000,6,garment_group_name
-0,Dormant Low-Value,Blouses,139485,73207,7,garment_group_name
-0,Dormant Low-Value,Dresses Ladies,109741,57702,8,garment_group_name
-0,Dormant Low-Value,Accessories,104721,62261,9,garment_group_name
-0,Dormant Low-Value,Trousers Denim,94348,50720,10,garment_group_name
-1,High-Value Loyal,Jersey Fancy,2482552,138483,1,garment_group_name
-1,High-Value Loyal,Jersey Basic,1481196,132954,2,garment_group_name
-1,High-Value Loyal,Trousers,1448527,133260,3,garment_group_name
-1,High-Value Loyal,"Under-, Nightwear",1334562,127380,4,garment_group_name
-1,High-Value Loyal,Blouses,1289267,132243,5,garment_group_name
-1,High-Value Loyal,Knitwear,1192122,133176,6,garment_group_name
-1,High-Value Loyal,Dresses Ladies,1143940,126672,7,garment_group_name
-1,High-Value Loyal,Swimwear,1109973,107060,8,garment_group_name
-1,High-Value Loyal,Accessories,784821,124202,9,garment_group_name
-1,High-Value Loyal,Trousers Denim,631544,109300,10,garment_group_name
-2,Active Developing,Jersey Fancy,720380,280166,1,garment_group_name
-2,Active Developing,Jersey Basic,511995,203737,2,garment_group_name
-2,Active Developing,"Under-, Nightwear",479563,173647,3,garment_group_name
-2,Active Developing,Swimwear,436333,116438,4,garment_group_name
-2,Active Developing,Trousers,433409,193322,5,garment_group_name
-2,Active Developing,Blouses,326391,163412,6,garment_group_name
-2,Active Developing,Knitwear,310856,158806,7,garment_group_name
-2,Active Developing,Dresses Ladies,279444,138651,8,garment_group_name
-2,Active Developing,Accessories,218067,128159,9,garment_group_name
-2,Active Developing,Trousers Denim,174937,91429,10,garment_group_name
-3,Frequent Core,Jersey Fancy,1592660,263555,1,garment_group_name
-3,Frequent Core,Jersey Basic,1054969,226655,2,garment_group_name
-3,Frequent Core,"Under-, Nightwear",975979,204488,3,garment_group_name
-3,Frequent Core,Trousers,884291,217954,4,garment_group_name
-3,Frequent Core,Swimwear,817328,150834,5,garment_group_name
-3,Frequent Core,Blouses,755298,212752,6,garment_group_name
-3,Frequent Core,Knitwear,726222,213302,7,garment_group_name
-3,Frequent Core,Dresses Ladies,614404,184998,8,garment_group_name
-3,Frequent Core,Accessories,537855,187596,9,garment_group_name
-3,Frequent Core,Trousers Denim,379057,137744,10,garment_group_name
-0,Dormant Low-Value,Womens Everyday Collection,308207,134471,1,section_name
-0,Dormant Low-Value,Divided Collection,236383,104409,2,section_name
-0,Dormant Low-Value,"Womens Swimwear, beachwear",167245,45524,3,section_name
-0,Dormant Low-Value,Womens Lingerie,122085,46565,4,section_name
-0,Dormant Low-Value,Womens Tailoring,119902,63640,5,section_name
-0,Dormant Low-Value,Womens Everyday Basics,99843,51011,6,section_name
-0,Dormant Low-Value,Divided Basics,73764,41444,7,section_name
-0,Dormant Low-Value,Ladies H&M Sport,71840,29769,8,section_name
-0,Dormant Low-Value,Womens Casual,70680,42235,9,section_name
-0,Dormant Low-Value,"Womens Nightwear, Socks & Tigh",65793,37384,10,section_name
-1,High-Value Loyal,Womens Everyday Collection,3049743,137854,1,section_name
-1,High-Value Loyal,Divided Collection,1755792,131062,2,section_name
-1,High-Value Loyal,"Womens Swimwear, beachwear",1068345,104174,3,section_name
-1,High-Value Loyal,Womens Tailoring,1040279,124318,4,section_name
-1,High-Value Loyal,Womens Lingerie,969484,110488,5,section_name
-1,High-Value Loyal,Womens Everyday Basics,718043,118849,6,section_name
-1,High-Value Loyal,Womens Casual,625950,116619,7,section_name
-1,High-Value Loyal,Divided Basics,576052,109182,8,section_name
-1,High-Value Loyal,Ladies H&M Sport,540857,87979,9,section_name
-1,High-Value Loyal,Ladies Denim,525481,102858,10,section_name
-2,Active Developing,Womens Everyday Collection,756009,284425,1,section_name
-2,Active Developing,Divided Collection,573202,227478,2,section_name
-2,Active Developing,"Womens Swimwear, beachwear",426700,113097,3,section_name
-2,Active Developing,Womens Lingerie,367372,128613,4,section_name
-2,Active Developing,Womens Tailoring,313298,147925,5,section_name
-2,Active Developing,Womens Everyday Basics,232287,114388,6,section_name
-2,Active Developing,Divided Basics,216951,115119,7,section_name
-2,Active Developing,Ladies H&M Sport,180791,74709,8,section_name
-2,Active Developing,"Womens Nightwear, Socks & Tigh",171173,90995,9,section_name
-2,Active Developing,Womens Casual,167016,99608,10,section_name
-3,Frequent Core,Womens Everyday Collection,1746873,260902,1,section_name
-3,Frequent Core,Divided Collection,1202730,224483,2,section_name
-3,Frequent Core,"Womens Swimwear, beachwear",792848,145772,3,section_name
-3,Frequent Core,Womens Lingerie,741198,163979,4,section_name
-3,Frequent Core,Womens Tailoring,660520,185965,5,section_name
-3,Frequent Core,Womens Everyday Basics,491691,165627,6,section_name
-3,Frequent Core,Divided Basics,423449,151096,7,section_name
-3,Frequent Core,Ladies H&M Sport,384002,111901,8,section_name
-3,Frequent Core,"Womens Nightwear, Socks & Tigh",371181,140883,9,section_name
-3,Frequent Core,Womens Casual,364778,149919,10,section_name
+0,Active Developing,Trousers,518940,206756,1,product_type_name
+0,Active Developing,Dress,362085,158750,2,product_type_name
+0,Active Developing,Sweater,306665,152611,3,product_type_name
+0,Active Developing,T-shirt,285451,131243,4,product_type_name
+0,Active Developing,Bra,195877,91676,5,product_type_name
+0,Active Developing,Top,187554,114339,6,product_type_name
+0,Active Developing,Bikini top,184235,80062,7,product_type_name
+0,Active Developing,Vest top,178629,90823,8,product_type_name
+0,Active Developing,Swimwear bottom,170884,77686,9,product_type_name
+0,Active Developing,Underwear bottom,157188,73287,10,product_type_name
+1,High-Value Loyal,Trousers,2139460,146087,1,product_type_name
+1,High-Value Loyal,Dress,1799246,142975,2,product_type_name
+1,High-Value Loyal,Sweater,1410633,144863,3,product_type_name
+1,High-Value Loyal,T-shirt,1020964,136875,4,product_type_name
+1,High-Value Loyal,Blouse,816327,129093,5,product_type_name
+1,High-Value Loyal,Top,812357,137195,6,product_type_name
+1,High-Value Loyal,Vest top,690967,122499,7,product_type_name
+1,High-Value Loyal,Bra,622417,110159,8,product_type_name
+1,High-Value Loyal,Shorts,554067,110998,9,product_type_name
+1,High-Value Loyal,Skirt,526812,111795,10,product_type_name
+2,Dormant Low-Value,Trousers,272192,123045,1,product_type_name
+2,Dormant Low-Value,Sweater,194353,99464,2,product_type_name
+2,Dormant Low-Value,Dress,153187,75456,3,product_type_name
+2,Dormant Low-Value,T-shirt,149177,71013,4,product_type_name
+2,Dormant Low-Value,Top,82175,51974,5,product_type_name
+2,Dormant Low-Value,Blouse,79976,47557,6,product_type_name
+2,Dormant Low-Value,Vest top,78912,40732,7,product_type_name
+2,Dormant Low-Value,Swimwear bottom,72750,33641,8,product_type_name
+2,Dormant Low-Value,Bikini top,71869,32758,9,product_type_name
+2,Dormant Low-Value,Bra,68087,35595,10,product_type_name
+3,Frequent Core,Trousers,1286425,262956,1,product_type_name
+3,Frequent Core,Dress,923910,231755,2,product_type_name
+3,Frequent Core,Sweater,871623,245518,3,product_type_name
+3,Frequent Core,T-shirt,748158,219222,4,product_type_name
+3,Frequent Core,Top,501322,203354,5,product_type_name
+3,Frequent Core,Vest top,465593,170891,6,product_type_name
+3,Frequent Core,Blouse,457369,177458,7,product_type_name
+3,Frequent Core,Bra,448852,151941,8,product_type_name
+3,Frequent Core,Shorts,395521,148051,9,product_type_name
+3,Frequent Core,Bikini top,371908,127524,10,product_type_name
+0,Active Developing,Jersey Fancy,626737,249196,1,garment_group_name
+0,Active Developing,Jersey Basic,440415,177547,2,garment_group_name
+0,Active Developing,"Under-, Nightwear",425593,152254,3,garment_group_name
+0,Active Developing,Swimwear,392274,102230,4,garment_group_name
+0,Active Developing,Trousers,373603,168382,5,garment_group_name
+0,Active Developing,Blouses,274886,139661,6,garment_group_name
+0,Active Developing,Knitwear,262626,136086,7,garment_group_name
+0,Active Developing,Dresses Ladies,236033,118153,8,garment_group_name
+0,Active Developing,Accessories,182897,108685,9,garment_group_name
+0,Active Developing,Trousers Denim,147227,76594,10,garment_group_name
+1,High-Value Loyal,Jersey Fancy,2572030,148916,1,garment_group_name
+1,High-Value Loyal,Jersey Basic,1539184,142852,2,garment_group_name
+1,High-Value Loyal,Trousers,1499241,143102,3,garment_group_name
+1,High-Value Loyal,"Under-, Nightwear",1388254,136774,4,garment_group_name
+1,High-Value Loyal,Blouses,1333471,141986,5,garment_group_name
+1,High-Value Loyal,Knitwear,1235730,143044,6,garment_group_name
+1,High-Value Loyal,Dresses Ladies,1183530,135961,7,garment_group_name
+1,High-Value Loyal,Swimwear,1154949,114825,8,garment_group_name
+1,High-Value Loyal,Accessories,819302,133387,9,garment_group_name
+1,High-Value Loyal,Trousers Denim,654509,116850,10,garment_group_name
+2,Dormant Low-Value,Jersey Fancy,349473,144147,1,garment_group_name
+2,Dormant Low-Value,Jersey Basic,203510,89605,2,garment_group_name
+2,Dormant Low-Value,Trousers,171715,88453,3,garment_group_name
+2,Dormant Low-Value,Swimwear,163905,45583,4,garment_group_name
+2,Dormant Low-Value,"Under-, Nightwear",163828,67413,5,garment_group_name
+2,Dormant Low-Value,Knitwear,150039,82049,6,garment_group_name
+2,Dormant Low-Value,Blouses,126556,67670,7,garment_group_name
+2,Dormant Low-Value,Dresses Ladies,99610,53216,8,garment_group_name
+2,Dormant Low-Value,Accessories,96101,57930,9,garment_group_name
+2,Dormant Low-Value,Trousers Denim,87149,47206,10,garment_group_name
+3,Frequent Core,Jersey Fancy,1623371,291866,1,garment_group_name
+3,Frequent Core,Jersey Basic,1085342,249028,2,garment_group_name
+3,Frequent Core,"Under-, Nightwear",989113,221041,3,garment_group_name
+3,Frequent Core,Trousers,909152,239284,4,garment_group_name
+3,Frequent Core,Swimwear,826957,160158,5,garment_group_name
+3,Frequent Core,Blouses,775528,232297,6,garment_group_name
+3,Frequent Core,Knitwear,744412,232105,7,garment_group_name
+3,Frequent Core,Dresses Ladies,628356,200693,8,garment_group_name
+3,Frequent Core,Accessories,547164,202216,9,garment_group_name
+3,Frequent Core,Trousers Denim,391001,148543,10,garment_group_name
+0,Active Developing,Womens Everyday Collection,635230,253594,1,section_name
+0,Active Developing,Divided Collection,479334,201477,2,section_name
+0,Active Developing,"Womens Swimwear, beachwear",384125,99477,3,section_name
+0,Active Developing,Womens Lingerie,328035,112868,4,section_name
+0,Active Developing,Womens Tailoring,267278,129069,5,section_name
+0,Active Developing,Womens Everyday Basics,199216,98265,6,section_name
+0,Active Developing,Divided Basics,187321,100238,7,section_name
+0,Active Developing,Ladies H&M Sport,164711,66375,8,section_name
+0,Active Developing,"Womens Nightwear, Socks & Tigh",145733,77689,9,section_name
+0,Active Developing,Womens Casual,142561,85895,10,section_name
+1,High-Value Loyal,Womens Everyday Collection,3159406,148252,1,section_name
+1,High-Value Loyal,Divided Collection,1830035,140689,2,section_name
+1,High-Value Loyal,"Womens Swimwear, beachwear",1111676,111662,3,section_name
+1,High-Value Loyal,Womens Tailoring,1078005,132953,4,section_name
+1,High-Value Loyal,Womens Lingerie,1009739,118362,5,section_name
+1,High-Value Loyal,Womens Everyday Basics,744737,126752,6,section_name
+1,High-Value Loyal,Womens Casual,646950,124111,7,section_name
+1,High-Value Loyal,Divided Basics,599637,116425,8,section_name
+1,High-Value Loyal,Ladies H&M Sport,560623,93540,9,section_name
+1,High-Value Loyal,Ladies Denim,544169,109700,10,section_name
+2,Dormant Low-Value,Womens Everyday Collection,279007,126721,1,section_name
+2,Dormant Low-Value,Divided Collection,213717,97983,2,section_name
+2,Dormant Low-Value,"Womens Swimwear, beachwear",157185,42812,3,section_name
+2,Dormant Low-Value,Womens Lingerie,113124,43428,4,section_name
+2,Dormant Low-Value,Womens Tailoring,109118,59025,5,section_name
+2,Dormant Low-Value,Womens Everyday Basics,91728,47150,6,section_name
+2,Dormant Low-Value,Ladies H&M Sport,67348,27918,7,section_name
+2,Dormant Low-Value,Divided Basics,66977,38091,8,section_name
+2,Dormant Low-Value,Womens Casual,64277,38919,9,section_name
+2,Dormant Low-Value,"Womens Nightwear, Socks & Tigh",60066,34385,10,section_name
+3,Frequent Core,Womens Everyday Collection,1787189,289085,1,section_name
+3,Frequent Core,Divided Collection,1245021,247283,2,section_name
+3,Frequent Core,"Womens Swimwear, beachwear",802152,154616,3,section_name
+3,Frequent Core,Womens Lingerie,749241,174987,4,section_name
+3,Frequent Core,Womens Tailoring,679598,200801,5,section_name
+3,Frequent Core,Womens Everyday Basics,506183,177708,6,section_name
+3,Frequent Core,Divided Basics,436281,162087,7,section_name
+3,Frequent Core,Ladies H&M Sport,384808,116525,8,section_name
+3,Frequent Core,"Womens Nightwear, Socks & Tigh",379999,149876,9,section_name
+3,Frequent Core,Womens Casual,374636,159456,10,section_name

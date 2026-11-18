@@ -1,7 +1,8 @@
 issue,decision,reason,affected_rows_or_records
-Transaction date invalid,DROP,Cannot use for Recency/Frequency,0
-Missing customer_id,DROP_FOR_SEGMENTATION,Cannot aggregate,0
-Missing/invalid price,DROP,Invalid monetary,614
-Exact duplicate transactions,KEEP,Represents multiple items,450000
-Extreme positive price,KEEP,Valid luxury items,0
-Missing customer age,KEEP_NULL,Age audit,15861
+Transaction date invalid,DROP,Không thể sử dụng cho Recency/Frequency/temporal analysis,0.0
+Missing customer_id,DROP_FOR_SEGMENTATION,Không thể aggregate theo customer,0.0
+Missing/invalid/non-positive price,DROP,Không tạo Monetary hợp lệ,0.0
+Exact duplicate transactions,KEEP,Có thể biểu diễn multiple units; dataset không có quantity/order_id,5518813.0
+Extreme positive price,KEEP,Có thể là high-value behavior; xử lý skew ở modelling stage thay vì xóa,
+Missing customer age,KEEP_NULL,Age không phải key giao dịch; imputation nếu cần sẽ được đánh giá sau,15861.0
+Missing article metadata,KEEP_NULL / FLAG,RFM vẫn tính được; product-diversity phải xét coverage riêng,

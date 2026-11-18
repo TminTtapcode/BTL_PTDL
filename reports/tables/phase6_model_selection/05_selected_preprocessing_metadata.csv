@@ -1,6 +1,7 @@
 feature,mode,transform,raw_skewness
-recency_days,clean_iqr_3.0_standard,identity,0.801557182343901
-frequency_purchase_days,clean_iqr_3.0_standard,identity,4.926308842033632
-monetary_total_spend,clean_iqr_3.0_standard,identity,6.849884959351178
-product_diversity,clean_iqr_3.0_standard,identity,4.948657187715615
-product_type_diversity,clean_iqr_3.0_standard,identity,1.4668666391329765
+recency_days,clean_iqr_3.0_standard,identity,0.804222231394125
+frequency_purchase_days,clean_iqr_3.0_standard,identity,4.730541793412746
+monetary_total_spend,clean_iqr_3.0_standard,identity,6.152030126685209
+product_type_diversity,clean_iqr_3.0_standard,identity,1.4515007969334994
+product_diversity,clean_iqr_3.0_standard,identity,4.6454579710984145
+garment_group_diversity,clean_iqr_3.0_standard,identity,0.8416736244865193

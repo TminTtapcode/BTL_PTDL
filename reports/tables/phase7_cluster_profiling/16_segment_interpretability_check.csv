@@ -1,5 +1,5 @@
-cluster_id,proposed_segment_name,has_distinct_rfm_profile,actionable_for_marketing,interpretable_for_phase8
-0,Dormant Low-Value,True,True,True
-1,High-Value Loyal,True,True,True
-2,Active Developing,True,True,True
-3,Frequent Core,True,True,True
+cluster_id,proposed_segment_name,duplicate_name_flag,pct_customers,pct_observed_spend,tiny_cluster_flag,core_rfm_global_effect_max,interpretable_for_phase8
+0,Active Developing,False,38.63791684681795,11.96411995837438,False,0.8139385835803449,True
+1,High-Value Loyal,False,10.966753555250348,52.12294414270979,False,0.8139385835803449,True
+2,Dormant Low-Value,False,27.459312726229022,5.794771072688283,False,0.8139385835803449,True
+3,Frequent Core,False,22.93601687170268,30.118164826227538,False,0.8139385835803449,True

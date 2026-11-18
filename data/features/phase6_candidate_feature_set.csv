@@ -2,5 +2,6 @@ feature,role
 recency_days,RFM_CORE
 frequency_purchase_days,RFM_CORE
 monetary_total_spend,RFM_CORE
-product_diversity,EXTENDED_SELECTED
 product_type_diversity,EXTENDED_SELECTED
+product_diversity,EXTENDED_SELECTED
+garment_group_diversity,EXTENDED_SELECTED
