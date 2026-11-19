@@ -21,6 +21,11 @@ update_phase6_nb.py
 env/
 venv/
 
+# Microsoft Office lock files
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
 # =====================================================================
 # BIG DATA EXCLUSIONS (Avoid GitHub 100MB file limit)
 # =====================================================================
